@@ -1,0 +1,112 @@
+1. Concatenate files and print to stdout.
+cat>file1
+hii
+hlo
+poojitha yadav
+
+2. Copy files
+user@chiradi-poojitha:~$ cp file1 file2
+
+3. Move files or rename files
+user@chiradi-poojitha:~$ mv file1 file2
+
+4. Make a directory
+user@chiradi-poojitha:~$ mkdir dir2
+
+5. Change directory
+user@chiradi-poojitha:~$ cd dir2
+
+6. List all paths from where ‘cat’ can run
+user@chiradi-poojitha:~/dir2$ which -a cat
+/usr/bin/cat
+/bin/cat
+
+7. display the calendar 
+user@chiradi-poojitha:~/dir2$ cal
+     April 2024       
+Su Mo Tu We Th Fr Sa  
+    1  2  3  4  5  6  
+ 7  8  9 10 11 12 13  
+14 15 16 17 18 19 20  
+21 22 23 24 25 26 27  
+28 29 30 
+             
+ 8. Displays the system date and time.                   
+user@chiradi-poojitha:~/dir2$ date
+Sunday 21 April 2024 12:42:53 
+
+9. Displays the list of users currently logged in
+user@chiradi-poojitha:~/dir2$ who
+user     :0           2024-04-21 11:21 (:0)
+
+10. List directory contents
+user@chiradi-poojitha:~/dir2$ 
+ls
+ 1711893019980.jpg   fib2.c             polinstrfun.c
+ AAA.html            file2              poojitha.java
+ ABC.java            file4.html         practice.c
+ a.c                 file4.txt          price.java
+ a.html              gc.c               project1.html
+ all                 gccc.c             Public
+ anni.html           grepfile.txt       pyramidalstar.c
+ a.out               hello.c            queuell.c
+ audio.html          hello.java         quick.c
+ awtfile.txt         helloworld.c       reccursion.c
+ awt.java            hiii.java          registration.java
+'b201349 c4'         hostel.java        reverse.c
+ bf.c                implementation.c   revsll.c
+ books2.java         it.file            robo1.jpg
+ c                   it.file1           robo.html
+ calculator          java.addition      robo.png
+ call.java           knapsac_r.c        SAVE_20220911_145715.jpg
+ class.java          main.java          sedfile.txt
+ convex1.c           matrix.java        s.html
+ convex.c            memb_inner.java    singlyrev__r.c
+ con_wh.java         monthfile.txt      snap
+ cp.c                Music              static.java
+ cpdc.c              mypack             String.java
+ CSE.java            mypic1.jpg         student1.java
+ css1.html           mypic2.jpg         student.java
+ css.html            mypic3.jpg         substring.c
+ dept                mypic.jpg          table1.html
+ Desktop             myself.java        Templates
+ dfs.c               mysl.c             total
+ dir1                number.txt         transpose.java
+ dir2                obj.java          'Untitled Document 1'
+ dll.c               org                veh_gear.java
+ Documents           p                  Videos
+ Downloads           pack2              wapper.c
+ duplicate.c         palindrome.c       week
+ ECE.java            photo.html        'week 1,08-11-23'
+ EEE.java            p.html            'week 7'
+ evenodd.c           pic.jpg            week.sql
+ exception.java      Pictures           wrapper.java
+ fib1.c              p.java
+
+11. Displays the user id of the currently logged-in user.
+user@chiradi-poojitha:~$ whoami
+user
+
+12. Remove a directory
+user@chiradi-rmdir dir2
+
+13. Estimate disk usage is blocks
+user@chiradi-poojitha:~$ du
+4	./Documents/poojitha
+6632	./Documents
+4	./.gnupg/private-keys-v1.d
+16	./.gnupg
+20	./org/shapes
+24	./org
+8	./all
+4	./snap/snap-store/959/.config/gtk-2.0
+8	./snap/snap-store/959/.config/autostart
+4	./snap/snap-store/959/.config/ibus
+8	./snap/snap-store/959/.config/fontconfig
+4	./snap/snap-store/959/.config/gtk-3.0
+4	./snap/snap-store/959/.config/dconf
+52	./snap/snap-store/959/.config
+
+
+
+
